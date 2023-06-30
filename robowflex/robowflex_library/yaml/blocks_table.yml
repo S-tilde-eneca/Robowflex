@@ -1,0 +1,30 @@
+world:
+  collision_objects:
+    - id: table_right
+      meshes:
+        - resource: "package://robowflex_resources/objects/cafe_table.dae"
+          dimensions: [0.025, 0.025, 0.025]
+      mesh_poses:
+        - position: [0.3, 0.8, -0.08]
+          orientation: [0, 0, 0, 1]
+    - id: Cube1
+      primitives:
+        - type: box
+          dimensions: [0.07, 0.07, 0.17]
+      primitive_poses:
+        - position: [0.0, 0.6, 0.76]
+          orientation: [0, 0, 0, 1]    
+    - id: Cube2
+      primitives:
+        - type: box
+          dimensions: [0.07, 0.07, 0.17]
+      primitive_poses:
+        - position: [0.2, 0.6, 0.76]
+          orientation: [0, 0, 0, 1]
+    - id: Cube3
+      primitives:
+        - type: box
+          dimensions: [0.07, 0.07, 0.17]
+      primitive_poses:
+        - position: [0.4, 0.6, 0.76]
+          orientation: [0, 0, 0, 1]
